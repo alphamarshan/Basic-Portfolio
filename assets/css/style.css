@@ -2,6 +2,11 @@ h1, h2, header {
 	font-family: Georgia;
 }
 
+header {
+	background: white;
+	height: 89px;
+}
+
 body {
 	background-image: url("../images/old_moon_background.jpg");
 	margin: 0 0 100px;
@@ -18,6 +23,14 @@ p, form {
 html {
     position: relative;
     min-height: 100%;
+}
+
+#abovefooter {
+	background: #4aaaa5;
+	width: 100%;
+	height: 10px;
+	position: relative;
+	bottom: -310px;
 }
 
 footer {
@@ -41,7 +54,7 @@ footer {
 }
 
 .childbox {
-	background-color:#4aaaa5;
+	background-color: #4aaaa5;
 	color: white;
 	text-align: center;
   	width:150px;
